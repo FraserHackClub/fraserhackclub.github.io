@@ -26,6 +26,15 @@ export default function Landing() {
           <i className="fab fa-discord text-b-800 md:text-lg" />
           <p className="font-medium text-b-800 md:text-lg">Join our Discord</p>
         </a>
+        <div className="mt-2 flex flex-row gap-2 md:mt-4">
+          <a href="https://bcydc.ca/" target="_blank">
+            <p className="text-xs text-white underline">This website was based on the BCYDC website</p>
+          </a>
+          <p className="text-xs text-white">x</p>
+          <a href="https://github.com/fraserhackclub/fraserhackclub.github.io/blob/main/README.md" target="_blank">
+            <p className="text-xs text-white underline">Learn more</p>
+          </a>
+        </div>
       </div>
     </div>
   );

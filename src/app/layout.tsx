@@ -9,9 +9,9 @@ import Navbar from "@/ui/components/Navbar";
 const plus = Plus_Jakarta_Sans({ subsets: ["latin"] });
 
 const identity = {
-  title: "British Columbia Youth Developer Collective",
+  title: "Fraser Hack Club",
   description:
-    "A collective of over 180 high school students in British Columbia with a shared passion for computer science, software development, robotics, and technology.",
+    "A community of middle/high school students who code and learn together, based in Tri-Cities, BC. Join us at the Coquitlam Public Library, City Center Branch at 2pm-5pm the second Saturday of the month!",
 };
 
 export const metadata: Metadata = {
@@ -19,9 +19,9 @@ export const metadata: Metadata = {
   description: identity.description,
   openGraph: {
     ...identity,
-    url: "https://bcydc.ca",
-    siteName: "BCYDC",
-    locale: "en_US",
+    url: "https://fraserhackclub.ca",
+    siteName: "fraserhackclub",
+    locale: "en_CA",
     type: "website",
     images: [{ url: "https://bcydc.ca/banners/embed.png" }],
   },
@@ -46,7 +46,7 @@ export default function RootLayout({
         />
       </head>
       <body className={`${plus.className}`}>
-        <div className="bg-g-900 relative flex h-full w-full flex-col items-center overflow-y-hidden">
+        <div className="bg-gradient-to-r from-b-900 to-m-900 flex h-full w-full flex-col items-center overflow-y-hidden">
           <div className="flex h-full min-h-screen w-full max-w-[1024px] flex-col items-center px-4 md:w-[1024px] md:max-w-[1024px] md:px-0">
             <Navbar />
             {children}

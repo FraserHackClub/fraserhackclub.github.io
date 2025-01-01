@@ -6,43 +6,43 @@ export default function Team() {
           The Team
         </h3>
         <h6 className="max-w-sm text-center text-lg font-light text-white md:text-xl">
-          Leading the British Columbia Youth Developer Collective
+          Leading Fraser Hack Club
         </h6>
       </div>
       <div className="flex w-full flex-col gap-4 md:gap-10">
         <div className="flex w-full flex-col items-center justify-center gap-10 md:flex-row md:gap-40">
           <Member
-            name="Kevin Thomas"
-            image="kevin.png"
+            name="Paya Maroufi"
+            image="paya.png"
             role="President"
-            href="https://kevinjosethomas.com/"
+            href="https://payamaroufi.xyz/"
           />
           <Member
-            name="Vuk Tacic"
-            image="vuk.png"
+            name="Harry Liu"
+            image="harry.png"
             role="Vice President"
-            href="https://www.linkedin.com/in/vuktacic/"
+            href="https://github.com/fengyuan66"
           />
         </div>
         <div className="flex w-full flex-col items-center justify-center gap-10 md:flex-row md:gap-40">
           <Member
-            name="Ethan Jin"
-            image="ethan.png"
+            name="Poshkin Omer"
+            image="poshkin.png"
             role="Marketing"
-            href="https://www.linkedin.com/in/ethan-jin-0743722ab/"
+            href="https://ca.pinterest.com/poshkin11/_created/"
           />
-          <Member name="Freddie Zhang" image="freddie.png" role="Marketing" />
-          <Member name="Simon Wong" image="simon.png" role="Sponsorship" />
-        </div>
-        <div className="flex w-full flex-col items-center justify-center gap-10 md:flex-row md:gap-40">
           <Member
-            name="Johnny Dong"
-            image="johnny.png"
-            role="Treasury"
-            href="https://www.linkedin.com/in/johnny-dong2007/"
+            name="Parsa Rezazadeh-Masouleh"
+            image="parsa.png"
+            role="Sponsorship"
+            href="https://github.com/PullRequestPR"
           />
-          <Member name="Shanvanth A" image="shaun.png" role="Logistics" />
-          <Member name="Carol Wu" image="carol.png" role="Logistics" />
+          <Member
+            name="William Wen"
+            image="william.png"
+            role="Logistics"
+            href="https://github.com/stickmanned"
+          />
         </div>
       </div>
     </div>
@@ -63,7 +63,7 @@ function Member({
   return (
     <div className="flex flex-col items-center gap-4">
       {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img src={`/team/${image}`} alt={name} className="w-40" />
+      <img src={`/team/${image}`} alt={name} className="w-40 rounded-xl" />
       <div className="flex flex-col items-center">
         <div className="flex items-center gap-2">
           <p className="text-xl font-bold text-white">{name}</p>

@@ -3,47 +3,12 @@ import Program from "./Program";
 export default function Programs() {
   const programs = [
     {
-      name: "yvrHacks 2024",
-      image: "yvrhacks.svg",
-      href: "/program/yvrhacks",
-      duration: "September 2024",
-      complete: true,
-    },
-    {
-      name: "Community Spotlight",
-      image: "community-spotlight.svg",
-      href: "/program/community-spotlight",
-      duration: "Regularly",
+      name: "Kick-Off 2025",
+      image: "kick-off-2025.svg",
+      href: "/program/kick-off-2025",
+      duration: "January 2025",
       complete: false,
-    },
-    {
-      name: "Boba Drops",
-      image: "boba-drops.svg",
-      href: "/program/boba-drops",
-      duration: "June 2024",
-      complete: true,
-    },
-    {
-      name: "Study Meets",
-      image: "study-meets.svg",
-      href: "/program/study-meets",
-      duration: "Regularly",
-      complete: false,
-    },
-    {
-      name: "Advent of Code",
-      image: "advent-of-code.png",
-      href: "/program/advent-of-code",
-      duration: "December 2023",
-      complete: true,
-    },
-    {
-      name: "Algorithm Explainers",
-      image: "algorithm-explainers.svg",
-      href: "/program/algorithm-explainers",
-      duration: "Regularly",
-      complete: false,
-    },
+    }
   ];
 
   return (
@@ -54,8 +19,7 @@ export default function Programs() {
             Meet like-minded students
           </h1>
           <p className="text-sm text-w-300 md:text-base">
-            Join us in events and programs to meet other high school developers
-            from around British Columbia
+            Join us at our events and workshops! Connect with fellow teens interested in tech around Tri-Cities and BC!
           </p>
         </div>
         <div className="flex w-full flex-col gap-4">

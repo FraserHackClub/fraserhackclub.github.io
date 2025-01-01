@@ -8,20 +8,20 @@ export default function MobileNavbar() {
     <div className="z-40 flex w-full items-center justify-between py-8 md:hidden">
       <Link href="/" className="flex items-center gap-3">
         <div className="relative h-10 w-10">
-          <Image src="/icons/logo.svg" alt="Logo" fill={true} />
+          <Image src="/icons/logo.png" alt="Logo" fill={true} />
         </div>
         <h1 className="max-w-[200px] text-lg font-semibold leading-tight text-white">
-          British Columbia Youth Developer Collective
+          Fraser Hack Club
         </h1>
       </Link>
       <div className="flex items-center gap-3 xl:gap-6">
         <a
-          href="https://discord.bcydc.ca/"
+          href="https://discord.gg/zpe6P2gEdZ"
           target="_blank"
-          className="relative flex transform select-none items-center gap-2 overflow-hidden rounded-md bg-white bg-gradient-to-r px-4 py-2 duration-300 hover:scale-105"
+          className="relative flex transform select-none items-center gap-2 overflow-hidden rounded-md bg-white px-4 py-2 duration-300 hover:scale-105"
         >
-          <i className="fab fa-discord text-g-800" />
-          <p className="font-medium text-g-800">Join</p>
+          <i className="fab fa-discord text-b-800" />
+          <p className="font-medium text-b-800">Join</p>
         </a>
       </div>
     </div>

@@ -5,7 +5,7 @@ export default function Programs() {
     {
       name: "Kick-Off 2025",
       image: "kick-off-2025.svg",
-      href: "/program/kick-off-2025",
+      href: "#",
       duration: "January 2025",
       complete: false,
     }

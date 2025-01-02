@@ -11,7 +11,7 @@ const plus = Plus_Jakarta_Sans({ subsets: ["latin"] });
 const identity = {
   title: "Fraser Hack Club",
   description:
-    "A community of middle/high school students who code and learn together, based in Tri-Cities, BC. Join us at the Coquitlam Public Library, City Center Branch at 2pm-5pm the second Saturday of the month!",
+    "A community of middle/high school students who code and learn together, based in Tri-Cities, BC.",
 };
 
 export const metadata: Metadata = {
@@ -19,8 +19,8 @@ export const metadata: Metadata = {
   description: identity.description,
   openGraph: {
     ...identity,
-    url: "https://fraserhackclub.ca",
-    siteName: "fraserhackclub",
+    url: "https://fraser.hackclub.com",
+    siteName: "Fraser Hack Club",
     locale: "en_CA",
     type: "website",
     images: [{ url: "https://bcydc.ca/banners/embed.png" }],

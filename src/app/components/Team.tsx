@@ -29,7 +29,7 @@ export default function Team() {
             name="Poshkin Omer"
             image="poshkin.png"
             role="Marketing"
-            href="https://ca.pinterest.com/poshkin11/_created/"
+            href="https://github.com/poshkin11"
           />
           <Member
             name="Parsa Rezazadeh-Masouleh"

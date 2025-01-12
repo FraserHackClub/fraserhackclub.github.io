@@ -23,12 +23,12 @@ export const metadata: Metadata = {
     siteName: "Fraser Hack Club",
     locale: "en_CA",
     type: "website",
-    images: [{ url: "https://bcydc.ca/banners/embed.png" }],
+    images: [{ url: "https://cloud-8hkfzstbp-hack-club-bot.vercel.app/0fhc-social-embed.png" }],
   },
   twitter: {
     ...identity,
     card: "summary_large_image",
-    images: ["https://bcydc.ca/banners/embed.png"],
+    images: ["https://cloud-8hkfzstbp-hack-club-bot.vercel.app/0fhc-social-embed.png"],
   },
 };
 

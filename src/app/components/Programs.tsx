@@ -7,7 +7,7 @@ export default function Programs() {
       image: "website-workshop.svg",
       href: "/program/website-workshop",
       duration: "January 2025",
-      complete: false,
+      complete: true,
     }
   ];
 

@@ -16,6 +16,7 @@ export default function Program({
     cost?: string;
     prize?: string;
     sign_up?: string;
+    criteria?: string;
   };
   children: React.ReactNode;
   banner: string;
@@ -67,6 +68,11 @@ export default function Program({
         {meta.sign_up && (
           <p>
             <span className="font-bold">Sign up at:</span> <a href={meta.sign_up} target="_blank">{meta.sign_up}</a>
+          </p>
+        )}
+        {meta.criteria && (
+          <p>
+            <span className="font-bold">Learn more/criteria:</span> <a href={meta.criteria} target="_blank">{meta.criteria}</a>
           </p>
         )}
       </div>

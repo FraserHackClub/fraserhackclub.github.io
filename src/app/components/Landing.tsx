@@ -27,12 +27,10 @@ export default function Landing() {
           <p className="font-medium text-b-800 md:text-lg">Join our Discord</p>
         </a>
         <div className="mt-2 flex flex-row gap-2 md:mt-4">
-          <a href="https://bcydc.ca/" target="_blank">
-            <p className="text-xs text-white underline">This website was based on the BCYDC website</p>
-          </a>
+          <p className="text-xs text-white">We're a financially transparent organization</p>
           <p className="text-xs text-white">x</p>
-          <a href="https://github.com/fraserhackclub/fraserhackclub.github.io/blob/main/README.md" target="_blank">
-            <p className="text-xs text-white underline">Learn more</p>
+          <a href="https://hcb.hackclub.com/fraser-hack-club-8d334d70-556d-420a-861e-d723004ba497" target="_blank">
+            <p className="text-xs text-white underline">See our finances</p>
           </a>
         </div>
       </div>

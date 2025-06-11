@@ -1,7 +1,16 @@
+import { image } from "framer-motion/client";
 import Program from "./Program";
+import { complex } from "framer-motion";
 
 export default function Programs() {
   const programs = [
+    {
+      name: "Swirl Website Workshop",
+      image: "swirl-website-workshop.svg",
+      href: "/program/swirl-website-workshop",
+      duration: "June 2025",
+      complete: false,
+    },
     {
       name: "Website Workshop",
       image: "website-workshop.svg",

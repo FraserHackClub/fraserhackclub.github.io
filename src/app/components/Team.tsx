@@ -28,8 +28,8 @@ export default function Team() {
           <Member
             name="Poshkin Omer"
             image="poshkin.png"
-            role="Marketing"
-            href="https://github.com/poshkin11"
+            role="Logistics"
+            href="https://github.com/poshkin15"
           />
           <Member
             name="Parsa Rezazadeh-Masouleh"
@@ -40,7 +40,7 @@ export default function Team() {
           <Member
             name="William Wen"
             image="william.png"
-            role="Logistics"
+            role="Marketing"
             href="https://github.com/stickmanned"
           />
         </div>

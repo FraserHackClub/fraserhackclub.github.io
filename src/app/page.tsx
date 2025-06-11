@@ -1,6 +1,7 @@
 import Team from "./components/Team";
 import Landing from "./components/Landing";
 import Programs from "./components/Programs";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Landing />
       <Programs />
       <Team />
+      <Footer />
     </div>
   );
 }

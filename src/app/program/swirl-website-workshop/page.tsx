@@ -5,14 +5,14 @@ import Program from "../components/Program";
 export default function yvrHacks() {
   return (
     <Program
-      name="June Multi-Day Workshop - Intermediate Personal Websites!"
+      name="August Multi-Day Workshop - Beginner Personal Websites!"
       description=""
       meta={{
-        when: "Tuesday, June 17th, 2025 to Thursday, June 19th, 2025: 5:00pm - 7:00pm",
+        when: "Saturday, August 9th, 2025 (Online, Discord/Zoom) and Sunday, August 10th (Library), 2025: 11:30am - 4:00pm",
         where:
-          "Pitt River Community Middle School",
+          "Coquitlam Public Library, City Centre Branch, 1169 Pinetree Wy",
         who: "Any middle/high school student in Tri-Cities",
-        prize: "Ice Cream (Thursday, on completion of website)!",
+        prize: "Ice Cream (Sunday, on completion of website)!",
         sign_up: "coming soon",
         criteria: "https://swirl.hackclub.com/",
       }}

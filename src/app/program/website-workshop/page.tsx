@@ -2,7 +2,7 @@
 
 import Program from "../components/Program";
 
-export default function yvrHacks() {
+export default function boba_workshop() {
   return (
     <Program
       name="January Workshop - Personal Website"

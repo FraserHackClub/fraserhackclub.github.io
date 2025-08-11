@@ -9,7 +9,7 @@ export default function Programs() {
       image: "swirl-website-workshop.svg",
       href: "/program/swirl-website-workshop",
       duration: "August 2025",
-      complete: false,
+      complete: true,
     },
     {
       name: "Website Workshop",

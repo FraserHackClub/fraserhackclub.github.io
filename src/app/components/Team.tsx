@@ -15,7 +15,7 @@ export default function Team() {
             name="Paya Maroufi"
             image="paya.png"
             role="President"
-            href="https://payamaroufi.xyz/"
+            href="https://tinkering-townsperson.github.io/"
           />
           <Member
             name="Harry Liu"
@@ -34,14 +34,38 @@ export default function Team() {
           <Member
             name="Parsa Rezazadeh-Masouleh"
             image="parsa.png"
-            role="Sponsorship"
+            role="Finances"
             href="https://github.com/PullRequestPR"
           />
           <Member
             name="William Wen"
             image="william.png"
-            role="Marketing"
-            href="https://github.com/stickmanned"
+            role="Outreach"
+            href="https://stickmanned.github.io/"
+          />
+        </div>
+      </div>
+      <div className="flex flex-col items-center gap-2">
+        <h4 className="text-center text-2xl font-bold text-white md:text-3xl">
+          Temporary Event Team
+        </h4>
+        <h6 className="max-w-sm text-center text-lg font-light text-white md:text-xl">
+          Helping with Campfire Vancouver
+        </h6>
+      </div>
+      <div className="flex w-full flex-col gap-4 md:gap-10">
+        <div className="flex w-full flex-col items-center justify-center gap-10 md:flex-row md:gap-40 temp">
+          <Member
+            name="Michael Ivanov"
+            image="michael.png"
+            role="Participant Experience"
+            href="https://github.com/Miguella297"
+          />
+          <Member
+            name="Ruibin Liu"
+            image="ruibin.png"
+            role="Media Coordinator"
+            href="https://www.instagram.com/ruibin.liu.photo_052/"
           />
         </div>
       </div>
@@ -63,7 +87,7 @@ function Member({
   return (
     <div className="flex flex-col items-center gap-4">
       {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img src={`/team/${image}`} alt={name} className="w-40 rounded-xl" />
+      <img src={`/team/${image}`} alt={name} className="w-40 rounded-xl shadow" />
       <div className="flex flex-col items-center">
         <div className="flex items-center gap-2">
           <p className="text-xl font-bold text-white">{name}</p>

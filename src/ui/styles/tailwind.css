@@ -5,3 +5,7 @@
 .shadow {
   filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.3));
 }
+
+.temp img {
+  border: 3px solid #FFA23C;
+}

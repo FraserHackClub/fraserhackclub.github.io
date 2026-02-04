@@ -5,9 +5,18 @@ import { complex } from "framer-motion";
 export default function Programs() {
   const programs = [
     {
+      name: "Campfire Vancouver",
+      image: "campfire-vancouver.svg",
+      href: "https://hack.club/cf-vancouver",
+      target: "_blank",
+      duration: "February 2026",
+      complete: false,
+    },
+    {
       name: "Swirl Website Workshop",
       image: "swirl-website-workshop.svg",
       href: "/program/swirl-website-workshop",
+      target: "_self",
       duration: "August 2025",
       complete: true,
     },
@@ -15,6 +24,7 @@ export default function Programs() {
       name: "Website Workshop",
       image: "website-workshop.svg",
       href: "/program/website-workshop",
+      target: "_self",
       duration: "January 2025",
       complete: true,
     }

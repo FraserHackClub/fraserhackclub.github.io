@@ -20,11 +20,17 @@ export default function Navbar() {
           </h1>
         </Link>
         <div className="flex items-center gap-4">
+          <a href="https://github.com/fraserhackclub" target="_blank">
+            <i className="fab fa-github text-xl text-white transition duration-300 hover:text-m-300" />
+          </a>
           <a href="https://www.youtube.com/@fhchackclub" target="_blank">
             <i className="fab fa-youtube text-xl text-white transition duration-300 hover:text-m-300" />
           </a>
           <a href="https://tiktok.com/@fraserhackclub" target="_blank">
             <i className="fab fa-tiktok text-xl text-white transition duration-300 hover:text-m-300" />
+          </a>
+          <a href="https://www.instagram.com/fraserhackclubbc/" target="_blank">
+            <i className="fab fa-instagram text-xl text-white transition duration-300 hover:text-m-300" />
           </a>
           <a
             href="https://discord.gg/zpe6P2gEdZ"

@@ -4,12 +4,14 @@ import { Fragment } from "react";
 export default function Program({
   name,
   href,
+  target,
   image,
   complete,
   duration,
 }: {
   name: string;
   href: string;
+  target: string;
   image: string;
   complete: boolean;
   duration: string;
@@ -17,6 +19,7 @@ export default function Program({
   return (
     <Link
       href={href}
+      target={target}
       className="group relative w-full transform overflow-hidden rounded-lg border border-white border-opacity-40 shadow duration-300 hover:scale-[1.01]"
     >
       {complete && (

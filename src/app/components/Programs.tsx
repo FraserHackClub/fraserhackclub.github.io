@@ -10,7 +10,7 @@ export default function Programs() {
       href: "https://hack.club/cf-vancouver",
       target: "_blank",
       duration: "February 2026",
-      complete: false,
+      complete: true,
     },
     {
       name: "Swirl Website Workshop",

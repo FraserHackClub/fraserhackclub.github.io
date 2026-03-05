@@ -46,7 +46,7 @@ export default function RootLayout({
         />
       </head>
       <body className={`${plus.className}`}>
-        <div className="bg-gradient-to-r from-b-900 to-m-900 flex h-full w-full flex-col items-center overflow-y-hidden">
+        <div className="bg-gradient-to-r from-b-900 to-m-900 flex h-full w-full flex-col items-center overflow-y-hidden overflow-x-hidden">
           <div className="flex h-full min-h-screen w-full max-w-[1024px] flex-col items-center px-4 md:w-[1024px] md:max-w-[1024px] md:px-0">
             <Navbar />
             {children}

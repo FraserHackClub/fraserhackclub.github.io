@@ -10,7 +10,7 @@
   border: 3px solid #FFA23C;
 }
 
-body div {
+body div.overflow-x-hidden {
   max-width: 100%;
   overflow-x: hidden;
 }

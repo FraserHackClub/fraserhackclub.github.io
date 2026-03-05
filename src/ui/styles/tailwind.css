@@ -9,3 +9,8 @@
 .temp img {
   border: 3px solid #FFA23C;
 }
+
+body div {
+  max-width: 100%;
+  overflow-x: hidden;
+}

@@ -47,7 +47,7 @@ export default function Landing() {
           className="group relative w-full transform overflow-hidden rounded-lg border border-white border-opacity-40 shadow duration-300 hover:scale-[1.05]"
         >
           <Image
-            src="/banners/DSC_0374.jpg"
+            src="/banners/Campfire_Photo.jpg"
             alt="Photo from our largest event so far, Campfire Vancouver!"
             className="w-full rounded-md"
             width={0}

@@ -53,6 +53,7 @@ export default function Landing() {
             width={0}
             height={0}
             sizes="100vw"
+            title="Photo from our largest event so far, Campfire Vancouver!"
           />
         </Link>
       </div>

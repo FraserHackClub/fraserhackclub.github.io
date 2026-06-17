@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Team() {
   return (
     <div className="flex w-full flex-col items-center gap-10 py-12 md:py-24">
@@ -87,7 +89,14 @@ function Member({
   return (
     <div className="flex flex-col items-center gap-4">
       {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img src={`/team/${image}`} alt={name} className="w-40 rounded-xl shadow" />
+      <Image
+        src={`/team/${image}`}
+        alt={name}
+        className="w-40 rounded-xl shadow"
+        width={0}
+        height={0}
+        sizes="100vw"
+      />
       <div className="flex flex-col items-center">
         <div className="flex items-center gap-2">
           <p className="text-xl font-bold text-white">{name}</p>

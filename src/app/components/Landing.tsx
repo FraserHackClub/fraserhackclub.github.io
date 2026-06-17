@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { Fragment } from "react";
 
 export default function Landing() {
@@ -38,6 +39,22 @@ export default function Landing() {
             <p className="text-xs text-white underline">See our finances</p>
           </a>
         </div>
+      </div>
+      <div className="order-1 flex w-full flex-col items-center justify-center md:order-2 md:w-11/12">
+        <Link
+          href="http://hack.club/cf-vancouver"
+          target={"_blank"}
+          className="group relative w-full transform overflow-hidden rounded-lg border border-white border-opacity-40 shadow duration-300 hover:scale-[1.05]"
+        >
+          <Image
+            src="/banners/DSC_0374.jpg"
+            alt="Photo from our largest event so far, Campfire Vancouver!"
+            className="w-full rounded-md"
+            width={0}
+            height={0}
+            sizes="100vw"
+          />
+        </Link>
       </div>
     </div>
   );

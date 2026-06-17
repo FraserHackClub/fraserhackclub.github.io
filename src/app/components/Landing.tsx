@@ -1,6 +1,5 @@
 import Image from "next/image";
 import { Fragment } from "react";
-import Sponsors from "./Sponsors";
 
 export default function Landing() {
   return (
@@ -39,7 +38,6 @@ export default function Landing() {
             <p className="text-xs text-white underline">See our finances</p>
           </a>
         </div>
-        <Sponsors />
       </div>
     </div>
   );

@@ -5,6 +5,14 @@ import { complex } from "framer-motion";
 export default function Programs() {
   const programs = [
     {
+      name: "Flavorless Website Workshop",
+      image: "flavorless-website-workshop.svg",
+      href: "/program/flavorless-website-workshop",
+      target: "_self",
+      duration: "August 2026",
+      complete: false,
+    },
+    {
       name: "Campfire Vancouver",
       image: "campfire-vancouver.svg",
       href: "https://hack.club/cf-vancouver",
@@ -27,7 +35,7 @@ export default function Programs() {
       target: "_self",
       duration: "January 2025",
       complete: true,
-    }
+    },
   ];
 
   return (

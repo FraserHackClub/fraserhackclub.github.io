@@ -32,6 +32,9 @@ export default function Navbar() {
           <a href="https://www.instagram.com/fraserhackclubbc/" target="_blank">
             <i className="fab fa-instagram text-xl text-white transition duration-300 hover:text-m-300" />
           </a>
+          <a href="https://linkedin.com/company/fraser-hack-club" target="_blank">
+            <i className="fab fa-linkedin text-xl text-white transition duration-300 hover:text-m-300" />
+          </a>
           <a
             href="https://discord.gg/zpe6P2gEdZ"
             target="_blank"

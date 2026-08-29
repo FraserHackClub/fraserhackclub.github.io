@@ -7,7 +7,7 @@ export default function Programs() {
     {
       name: "Flavorless Website Workshop",
       image: "flavorless-website-workshop.svg",
-      href: "/program/flavorless-website-workshop",
+      href: "https://fraser.hackclub.com/flavorless_demo",
       target: "_self",
       duration: "August 2026",
       complete: false,

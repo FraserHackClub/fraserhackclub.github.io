@@ -23,3 +23,8 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 ## Licensing
 
 All code is developed by executives and members of the British Columbia Youth Developer Collective, modified by executives of Fraser Hack club, and provided under the [MIT License](https://github.com/bcydc/website/blob/main/LICENSE). If you fork, clone, or build on this work, please provide attribution on your website, as well as in the source code.
+
+## AI Use Declaration
+
+No AI was used for this project.
+

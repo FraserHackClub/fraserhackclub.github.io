@@ -10,7 +10,7 @@ export default function Programs() {
       href: "https://fraser.hackclub.com/flavorless_demo",
       target: "_blank",
       duration: "August 2026",
-      complete: false,
+      complete: true,
     },
     {
       name: "Campfire Vancouver",

@@ -36,14 +36,22 @@ export default function Team() {
           <Member
             name="Parsa Rezazadeh-Masouleh"
             image="parsa.png"
-            role="Finances"
+            role="Partnerships"
             href="https://github.com/PullRequestPR"
           />
           <Member
             name="William Wen"
             image="william.png"
             role="Outreach"
-            href="https://stickmanned.github.io/"
+            href="http://williamwen.xyz"
+          />
+        </div>
+        <div className="flex w-full flex-col items-center justify-center gap-10 md:flex-row md:gap-40">
+          <Member
+            name="Ruibin Liu"
+            image="ruibin.png"
+            role="Media Coordinator"
+            href="https://www.instagram.com/ruibin.liu.photo_052/"
           />
         </div>
       </div>
@@ -52,22 +60,38 @@ export default function Team() {
           Temporary Event Team
         </h4>
         <h6 className="max-w-sm text-center text-lg font-light text-white md:text-xl">
-          Helping with Campfire Vancouver
+          Helping with Haven Vancouver
         </h6>
       </div>
       <div className="flex w-full flex-col gap-4 md:gap-10">
-        <div className="flex w-full flex-col items-center justify-center gap-10 md:flex-row md:gap-40 temp">
+        <div className="haven-temp flex w-full flex-col items-center justify-center gap-10 md:flex-row md:gap-40">
+          <Member
+            name="James Imbeault"
+            image="james.png"
+            role=""
+            href="https://www.instagram.com/james_and_planes/"
+          />
+          <Member
+            name="Pinyuan Chen"
+            image="pinyuan.png"
+            role=""
+            href="https://pinyuan.actualintelligent.xyz/"
+          />
+        </div>
+      </div>
+      <div className="flex flex-col items-center gap-2">
+        <h4 className="text-center text-2xl font-bold text-white md:text-3xl">
+          Retired Executives
+        </h4>
+        <h6 className="max-w-sm text-center text-lg font-light text-white md:text-xl"></h6>
+      </div>
+      <div className="flex w-full flex-col gap-4 md:gap-10">
+        <div className="flex w-full flex-col items-center justify-center gap-10 grayscale md:flex-row md:gap-40">
           <Member
             name="Michael Ivanov"
             image="michael.png"
-            role="Participant Experience"
+            role="Participant Experience - 2026"
             href="https://github.com/Miguella297"
-          />
-          <Member
-            name="Ruibin Liu"
-            image="ruibin.png"
-            role="Media Coordinator"
-            href="https://www.instagram.com/ruibin.liu.photo_052/"
           />
         </div>
       </div>
